@@ -1,0 +1,79 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80");
+    background-size: cover;
+    background-position-y: -25rem;
+    background-repeat: no-repeat;
+}
+.main {
+    min-width: 350px;
+    width: 38%;
+    margin: 3% auto;
+    border-radius: 5px;
+}
+.one {
+    width: 80%;
+    margin: 20px auto;
+    border-bottom: lightgray 2px solid;
+}
+.symbols::-webkit-input-placeholder {
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+}
+#exampleInputEmail1 , #exampleInputPassword1 {
+    font-weight: 600;
+}
+.two {
+    width: 80%;
+    margin: 20px auto;
+}
+h1 , h2 , h5 {
+    text-align: center;
+}
+h2 {
+    margin-bottom: 0;
+}
+h5{
+    margin-bottom: 0.9rem;
+}
+.tick {
+    margin-top: 7px;
+}
+.btn1 {
+    width: 100%;
+}
+.btn1:hover {
+    background-color: darkgreen;
+}
+.lbtn {
+    width: 48%;
+    padding: 7px 6px;
+}
+#a {
+    background-color: rgb(177, 34, 34);
+    border: solid rgb(177, 34, 34) 1px;
+}
+#a:hover {
+    background-color: rgb(148, 3, 3);
+}
+#b {
+    background-color: rgb(8, 55, 184);
+}
+#b:hover {
+    background-color: rgb(6, 42, 139);
+}
+
+
+#d {
+    background-color: rgb(19, 19, 19);
+    border: solid black 1px;
+}
+#d:hover {
+    background-color: rgb(31, 31, 31);
+}
+#create {
+    text-align: center;
+    margin-left: 8px;
+}
+
+#one {
+    margin: 10px auto;
+}

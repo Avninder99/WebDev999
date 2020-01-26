@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(50, 50, 50);
+    color: lightgray;
+}
+.navbar {
+    background-color: rgb(25, 79, 255);
+}
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    color: yellow;
+}
+.tasklink {
+    padding-left: 600px;
+}
+.carousel {
+    width: 45%;
+    height: 300px;
+}
+.first {
+   
+}
+img {
+    width: 100%;
+}
+.a {
+    padding: 5px 20px;
+    padding-top: 80px;
+}
+h2 {
+    color: rgb(255, 71, 71);
+}
+h3 {
+    color: teal;
+}
+.c {
+    font-weight: 900;
+}
+.b {
+    margin-top: 60px;
+}
+h5 {
+    color: white;
+}

@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: orange;
+}
+h1{
+    text-align: center;
+}
+.windisplay {
+    color: yellow;
+}
+#enteredlimit {
+    width: 175px;
+    background-color: rgb(255, 66, 66);
+    color: lightgray;
+    border: black;
+    font-weight: 500;
+}
+#enteredlimit:focus ,#enteredlimit:hover {
+    background-color: rgb(250, 36, 36);
+}
+#enteredlimit::placeholder {
+    color: black;
+  }
+.display-3{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.btn{
+    margin-left: 10px;
+}
+#title {
+    font-weight: 600;
+    background-color: orangered;
+    margin: auto 10%;
+    border-radius: 10px ;
+}
+#mainbox {
+    padding: 20px 5%;
+    background-color: steelblue;
+    border-radius: 10px;
+    margin: 20px 25%;
+    width: 50%;
+}
+.wintext {
+    color: rgb(250, 200, 0);
+}

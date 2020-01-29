@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Score Keeper</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="RPS.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="flex-column d-flex justify-content-center" id="mainbox">
+            <h1 class="display-2" id="title">SCORES</h1>
+            <h2><span id="p1display">0</span> VS <span id="p2display">0</span></h2>
+            <h3 class="mb-3 wintext">Winning Score - <span id="valuedisplay">3</span></h3>
+
+            <div class="d-flex flex-column flex-xl-row justify-content-center ">
+                <input class="form-control align-self-center mb-2" id="enteredlimit" type="number" placeholder="Winning Score">
+                
+                
+                <button class="btn btn-success mb-2" id="b1">Player One</button>
+                <button class="btn btn-success mb-2" id="b2">Player Two</button>
+                <button class="btn btn-danger mb-2" id="reset">RESET</button>
+            </div>
+            <h3 class="mt-1"><strong></strong></h3>
+            </div>
+        </div>
+
+
+        
+        <script src="RPS.js"></script>
+    </body>
+</html>

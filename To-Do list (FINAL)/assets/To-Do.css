@@ -1,0 +1,65 @@
+body {
+    background-image: linear-gradient(to right,cyan,lightyellow);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.main {
+    width: 27%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: rgb(232, 232, 232);
+}
+.head {
+    background-color: rgb(39, 84, 168);
+}
+h3 {
+    color: white;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+.one {
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+#adder {
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+li {
+    list-style-type: none;
+    list-style-position: inside;
+    min-width: 30px;
+    overflow: hidden;
+    justify-content: center;
+}
+ul {
+    padding-left: 0px;
+    overflow: hidden;
+}
+.line {
+    text-decoration: line-through;
+    color: gray;
+}
+span {
+    padding: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.del {
+    color: white;
+    background-color: red;
+    display: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main .one .mylist li {
+    height: 30px;
+}
+.content {
+    padding-left: 12px;
+}
